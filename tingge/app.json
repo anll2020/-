@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/index/index",
+     "pages/jie/jie"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "听歌识曲-第一首",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

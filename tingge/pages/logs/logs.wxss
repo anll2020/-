@@ -1,0 +1,62 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.btn{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px gainsboro solid;
+  background-color: #dcdcdc;
+  margin: 6px;
+  text-align: center;
+  }
+  .name{
+    background-color: #efefef;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-left: 1px solid gainsboro;
+    color: black;
+    text-align: center;
+  }
+  .content{
+    width: 80%;
+    height: 200px;
+    border: 1px solid gainsboro;
+    padding: 30px;
+  }
+  .inputgroup{
+    margin-left: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  .tip{
+    display: inline-block;
+    padding: 10px;
+    height: 2px;
+    line-height: 2px;
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+  }
+  .sos{
+    color: white;
+    background-color: #b0b0b0;
+    display: inline-block;
+  }
+  .sos:hover{
+    background-color: burlywood;
+  }

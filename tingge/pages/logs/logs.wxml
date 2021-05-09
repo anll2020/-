@@ -1,0 +1,22 @@
+<!--logs.wxml-->
+<!-- 音频播放 -->
+<view class="container log-list">
+<audio src="{{arr[nowIndex].src}} " controls></audio>
+</view>
+<!-- 用户输入 -->
+<view class="inputgroup" >
+  <input type="text" wx:for="{{title}}" disabled="true" id="{{index}}" value='{{title[index]}}' class="name"  bindtap="cleartxt" />
+</view>
+
+<!-- 选项 -->
+<view class="content">
+  <view class="btn" wx:for="{{arr[nowIndex].keyword}}" bindtap="getitem" id="{{index}}">
+ {{item}}
+  </view>
+</view>
+
+<view class="footer">
+  <text class="tip" > 太难了搞不定？邀请好友试试</text>
+  
+  <button class="sos" open-type="share"> SOS</button>
+</view>

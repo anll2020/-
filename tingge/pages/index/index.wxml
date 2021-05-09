@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<button   bindtap="goplaymusic"> 进入游戏 </button>
+
+<view>
+ 引导页
+</view>
+
+
+  
+
+
+
+<!-- 
+<swiper class="swiper" autoplay>
+    <swiper-item>1
+      <image src="https://img1.baidu.com/it/u=1650994621,3120185416&fm=26&fmt=auto&gp=0.jpg"></image>
+    </swiper-item>
+    <swiper-item>2
+      <image src="https://img0.baidu.com/it/u=2906998347,4050075397&fm=26&fmt=auto&gp=0.jpg"></image>
+    </swiper-item>
+    <swiper-item>3
+      <image src="https://img1.baidu.com/it/u=1773078252,155453269&fm=26&fmt=auto&gp=0.jpg"></image>
+    </swiper-item>
+  </swiper> -->
